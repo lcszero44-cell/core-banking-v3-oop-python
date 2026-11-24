@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Core Banking v3 Object-Oriented Engine UML 3D Hero Banner">
+  <defs>
+    <!-- Background & Ambient Glow Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050712"/>
+      <stop offset="52%" stop-color="#0B1228"/>
+      <stop offset="100%" stop-color="#070B19"/>
+    </linearGradient>
+
+    <radialGradient id="crimsonGlow" cx="18%" cy="32%" r="48%">
+      <stop offset="0%" stop-color="#EC0000" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#EC0000" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#EC0000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="violetGlow" cx="68%" cy="22%" r="42%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.30"/>
+      <stop offset="55%" stop-color="#7C3AED" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cyanGlow" cx="84%" cy="68%" r="44%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#00E5FF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#E6EEFF"/>
+      <stop offset="100%" stop-color="#9BE8FF"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2A4B"/>
+      <stop offset="48%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
+
+    <!-- Isometric Base Slab (Bottom: Cliente / PessoaFisica / BankRepository) -->
+    <linearGradient id="baseTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#13294B"/>
+      <stop offset="100%" stop-color="#0B1931"/>
+    </linearGradient>
+    <linearGradient id="baseLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B172C"/>
+      <stop offset="100%" stop-color="#060D1A"/>
+    </linearGradient>
+    <linearGradient id="baseRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#102544"/>
+      <stop offset="100%" stop-color="#081326"/>
+    </linearGradient>
+
+    <!-- Isometric Middle Slab (Conta / ContaCorrente / Historico) -->
+    <linearGradient id="midTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#143D66"/>
+      <stop offset="100%" stop-color="#0C2545"/>
+    </linearGradient>
+    <linearGradient id="midLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D2542"/>
+      <stop offset="100%" stop-color="#08162B"/>
+    </linearGradient>
+    <linearGradient id="midRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10365C"/>
+      <stop offset="100%" stop-color="#09203A"/>
+    </linearGradient>
+
+    <!-- Isometric Top Crown (ABC Transacao / Deposito / Saque) -->
+    <linearGradient id="topTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B1D5E"/>
+      <stop offset="55%" stop-color="#281F56"/>
+      <stop offset="100%" stop-color="#123C60"/>
+    </linearGradient>
+    <linearGradient id="topLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1533"/>
+      <stop offset="100%" stop-color="#1F0D28"/>
+    </linearGradient>
+    <linearGradient id="topRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A3566"/>
+      <stop offset="100%" stop-color="#0D1F40"/>
+    </linearGradient>
+
+    <!-- Micro Satellite Cubes (Deposito / Saque) -->
+    <linearGradient id="satGreenTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="satRedTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2A4B"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+
+    <!-- Isometric Background Grid Pattern -->
+    <pattern id="isoGrid" width="48" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 0 14 L 24 0 L 48 14 L 24 28 Z" fill="none" stroke="#1E3156" stroke-width="0.65" stroke-opacity="0.34"/>
+    </pattern>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Canvas & Ambient Lighting -->
+  <rect x="0" y="0" width="1200" height="340" rx="18" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="340" rx="18" fill="url(#isoGrid)"/>
+  <rect x="0" y="0" width="1200" height="340" rx="18" fill="url(#crimsonGlow)"/>
+  <rect x="0" y="0" width="1200" height="340" rx="18" fill="url(#violetGlow)"/>
+  <rect x="0" y="0" width="1200" height="340" rx="18" fill="url(#cyanGlow)"/>
+  <rect x="1.5" y="1.5" width="1197" height="337" rx="17" fill="none" stroke="#223A66" stroke-width="1.5"/>
+
+  <!-- Top Telemetry Bar -->
+  <line x1="48" y1="42" x2="1152" y2="42" stroke="#1E335A" stroke-width="1"/>
+  <circle cx="58" cy="24" r="4" fill="#EC0000" filter="url(#neonGlow)"/>
+  <circle cx="74" cy="24" r="4" fill="#A855F7"/>
+  <circle cx="90" cy="24" r="4" fill="#00E5FF"/>
+  <text x="108" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#7D97BC" letter-spacing="1.7">
+    BOOTCAMP SANTANDER 2025 // PYTHON BACK-END • DIO
+  </text>
+  <text x="1148" y="28" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#00E5FF" letter-spacing="1.4">
+    ARCH: v3.0-OOP-UML • ZERO DEPS
+  </text>
+
+  <!-- Left Content: Hero Typography & Badges -->
+  <g transform="translate(56, 86)">
+    <!-- Eyebrow Pill -->
+    <rect x="0" y="0" width="308" height="26" rx="13" fill="#7C3AED" fill-opacity="0.16" stroke="#A855F7" stroke-opacity="0.65" stroke-width="1"/>
+    <circle cx="15" cy="13" r="3.5" fill="#C084FC" filter="url(#neonGlow)"/>
+    <text x="28" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#D8B4FE" letter-spacing="1.5">
+      DOMAIN-DRIVEN DESIGN &amp; SOLID
+    </text>
+
+    <!-- Main Hero Title -->
+    <text x="0" y="76" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="900" fill="url(#titleGrad)" letter-spacing="-1">
+      CORE BANKING v3
+    </text>
+
+    <!-- Accent Subtitle -->
+    <text x="2" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19.5" font-weight="700" fill="url(#accentGrad)" letter-spacing="2.6">
+      // OBJECT-ORIENTED ENGINE (UML)
+    </text>
+
+    <!-- Accent Bar -->
+    <rect x="0" y="123" width="445" height="2.5" rx="1.25" fill="url(#accentGrad)" opacity="0.9"/>
+
+    <!-- Description -->
+    <text x="0" y="152" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.2" fill="#A0B7DA">
+      Diagrama UML Oficial DIO • ABC &amp; Polimorfismo • Decimal BRL • Modo --demo
+    </text>
+
+    <!-- Feature Chips -->
+    <g transform="translate(0, 174)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="600">
+      <rect x="0" y="0" width="148" height="28" rx="6" fill="#0E1D38" stroke="#A855F7" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="74" y="18" text-anchor="middle" fill="#D8B4FE">ABC + @PROPERTY</text>
+
+      <rect x="158" y="0" width="160" height="28" rx="6" fill="#0E1D38" stroke="#00E5FF" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="238" y="18" text-anchor="middle" fill="#7CEEFF">UML DIO COMPLIANT</text>
+
+      <rect x="328" y="0" width="142" height="28" rx="6" fill="#0E1D38" stroke="#10B981" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="399" y="18" text-anchor="middle" fill="#6EE7B7">UUID4 + LGPD</text>
+    </g>
+  </g>
+
+  <!-- Right Content: 3D Isometric Layered OOP Architecture Stack -->
+  <g transform="translate(910, 185)">
+    <!-- Soft Ground Shadow -->
+    <ellipse cx="0" cy="116" rx="165" ry="30" fill="#02050E" opacity="0.72"/>
+
+    <!-- Vertical UML Architectural Laser Axes (Behind Layers) -->
+    <line x1="-88" y1="-62" x2="-88" y2="70" stroke="#00E5FF" stroke-opacity="0.32" stroke-width="1.2" stroke-dasharray="4 4"/>
+    <line x1="88" y1="-62" x2="88" y2="70" stroke="#A855F7" stroke-opacity="0.35" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+    <!-- LAYER 1 (Bottom): PessoaFisica(Cliente) + BankRepository -->
+    <g transform="translate(0, 58)">
+      <!-- Top Face -->
+      <polygon points="0,-54 134,0 0,54 -134,0" fill="url(#baseTop)" stroke="#10B981" stroke-opacity="0.65" stroke-width="1.3"/>
+      <!-- Left Face -->
+      <polygon points="-134,0 0,54 0,72 -134,18" fill="url(#baseLeft)" stroke="#1E3B63" stroke-width="1"/>
+      <!-- Right Face -->
+      <polygon points="134,0 0,54 0,72 134,18" fill="url(#baseRight)" stroke="#1E3B63" stroke-width="1"/>
+      <!-- Inner Circuit Lines -->
+      <polygon points="0,-38 96,0 0,38 -96,0" fill="none" stroke="#10B981" stroke-opacity="0.25" stroke-width="1"/>
+      <!-- Label -->
+      <text x="0" y="6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#6EE7B7" letter-spacing="0.8">
+        PessoaFisica(Cliente)
+      </text>
+    </g>
+
+    <!-- UML Composition Beam (Layer 1 -> Layer 2) -->
+    <line x1="0" y1="36" x2="0" y2="-4" stroke="#10B981" stroke-width="2" filter="url(#neonGlow)"/>
+    <polygon points="0,34 5,40 0,46 -5,40" fill="#10B981"/>
+
+    <!-- LAYER 2 (Middle): ContaCorrente(Conta) + Historico -->
+    <g transform="translate(0, -4)">
+      <polygon points="0,-48 118,0 0,48 -118,0" fill="url(#midTop)" stroke="#00E5FF" stroke-opacity="0.78" stroke-width="1.4"/>
+      <polygon points="-118,0 0,48 0,66 -118,18" fill="url(#midLeft)" stroke="#0E4A73" stroke-width="1"/>
+      <polygon points="118,0 0,48 0,66 118,18" fill="url(#midRight)" stroke="#0E4A73" stroke-width="1"/>
+      <!-- Inner Ledger Bars -->
+      <line x1="-54" y1="-2" x2="54" y2="-2" stroke="#00E5FF" stroke-opacity="0.24" stroke-width="1"/>
+      <text x="0" y="-4" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.2" font-weight="700" fill="#8CEEFF" letter-spacing="0.7">
+        ContaCorrente(Conta)
+      </text>
+      <text x="0" y="13" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#67C5E8" letter-spacing="1.1">
+        + Historico (tuple • BRT)
+      </text>
+    </g>
+
+    <!-- UML Realization / Polymorphic Dispatch Beam (Layer 2 -> Layer 3) -->
+    <line x1="0" y1="-28" x2="0" y2="-66" stroke="#A855F7" stroke-width="2" filter="url(#neonGlow)"/>
+    <polygon points="0,-69 6,-59 -6,-59" fill="none" stroke="#E9D5FF" stroke-width="1.5"/>
+
+    <!-- LAYER 3 (Top Crown): <<ABC>> Transacao -->
+    <g transform="translate(0, -76)">
+      <polygon points="0,-40 94,0 0,40 -94,0" fill="url(#topTop)" stroke="#C084FC" stroke-opacity="0.9" stroke-width="1.5"/>
+      <polygon points="-94,0 0,40 0,56 -94,16" fill="url(#topLeft)" stroke="#7C3AED" stroke-opacity="0.75" stroke-width="1"/>
+      <polygon points="94,0 0,40 0,56 94,16" fill="url(#topRight)" stroke="#00E5FF" stroke-opacity="0.65" stroke-width="1"/>
+      <text x="0" y="-6" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#FF8FA0" letter-spacing="1.4">
+        «ABC INTERFACE»
+      </text>
+      <text x="0" y="11" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="800" fill="#FFFFFF" letter-spacing="1.1">
+        Transacao
+      </text>
+    </g>
+
+    <!-- Satellite Isometric Cube Left: Deposito -->
+    <g transform="translate(-148, -46)">
+      <line x1="28" y1="-4" x2="62" y2="-22" stroke="#10B981" stroke-opacity="0.75" stroke-width="1.3" stroke-dasharray="3 3"/>
+      <polygon points="0,-16 28,-4 0,8 -28,-4" fill="url(#satGreenTop)" stroke="#6EE7B7" stroke-width="1"/>
+      <polygon points="-28,-4 0,8 0,24 -28,12" fill="#064E3B" stroke="#10B981" stroke-width="0.8"/>
+      <polygon points="28,-4 0,8 0,24 28,12" fill="#065F46" stroke="#10B981" stroke-width="0.8"/>
+      <text x="0" y="-23" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#6EE7B7">
+        Deposito
+      </text>
+    </g>
+
+    <!-- Satellite Isometric Cube Right: Saque -->
+    <g transform="translate(148, -46)">
+      <line x1="-28" y1="-4" x2="-62" y2="-22" stroke="#FF2A4B" stroke-opacity="0.8" stroke-width="1.3" stroke-dasharray="3 3"/>
+      <polygon points="0,-16 28,-4 0,8 -28,-4" fill="url(#satRedTop)" stroke="#FDA4AF" stroke-width="1"/>
+      <polygon points="-28,-4 0,8 0,24 -28,12" fill="#7F1D1D" stroke="#FF2A4B" stroke-width="0.8"/>
+      <polygon points="28,-4 0,8 0,24 28,12" fill="#991B1B" stroke="#FF2A4B" stroke-width="0.8"/>
+      <text x="0" y="-23" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#FDA4AF">
+        Saque
+      </text>
+    </g>
+
+    <!-- Right-side Telemetry Tags -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" fill="#7D97BC">
+      <text x="148" y="8" text-anchor="middle" fill="#7CEEFF">OVERRIDE sacar()</text>
+      <text x="148" y="21" text-anchor="middle" fill="#647D9F">R$ 500 • 3/dia</text>
+      <text x="-148" y="22" text-anchor="middle" fill="#D8B4FE">@property</text>
+      <text x="-148" y="35" text-anchor="middle" fill="#647D9F">Encapsulado</text>
+    </g>
+  </g>
+</svg>
